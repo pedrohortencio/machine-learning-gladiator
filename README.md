@@ -10,11 +10,25 @@ The idea to this project came from the Elite Data Science blog, in this particul
 
 ### MNIST
 
-The first dataset that I'll apply this concept is the well known MNIST dataset. The metrics used to evaluate the performance of the models are: recall, precision, f1 score, accuracy and balanced accuracy. I'll primarily use scikit-learn to create and evaluate the models.
+The first dataset that I'll apply this concept is the well known MNIST dataset. As the classes are balanced, the metric used to evaluate the models is accuracy. The models created are:
+
+  * Support Vector Classifier
+  * Random Forest
+  * K-Nearest Neighbors Classifier
+  * MLP Classifier
+  * Gradient Boosting Classifier
+  * Logistic Regression
+  * Perceptron
+  * Ridge Classifier
+  * Ridge Classifier CV
+  * Bernoulli Naive Bayes
+  * Gaussian Naive Bayes
+  * Decision Tree
+
 The notebook is avaiable in the [repository](https://github.com/pedrohortencio/machine-learning-gladiator/blob/main/MNIST/MNIST_Gladiator.ipynb) and also on [Google Colab](https://colab.research.google.com/drive/16XOZSnLCSpFp6HzXjo7OBrFLFrfEwHGY?usp=sharing).
 
 ## Roadmap
 
-I plan to finish MNIST Gladiator with a bunch of classic algorithms: to K-Neighbors Classifier to Support Vector Classifier to Linear Regression. Some I know will do well, as SVC, while shome I have absolutely no idea how they'll behave (as Random Forest).
+I want to do similar analysis with Fashion MNIST dataset, Titanic dataset and Wine Quality datasets.
 
-After that, I want to do similar things with both Fashion MNIST dataset, Titanic dataset and Wine Quality datasets.
+The next one will probably be the Fashion MNIST, which is much more demanding than the MNIST.
