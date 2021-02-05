@@ -26,10 +26,11 @@ The first dataset that I'll apply this concept is the well known MNIST dataset. 
   * Decision Tree
 
 #### MNIST Results
+One surprise is how well KNN model did in comparison with other more robust methods.
 ![Models' accuracy on test data (MNIST)](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/MNIST/Accuracy-test.png)
 *Accuracy on test data with out-of-the-box sklearn algorithms. No optimization was made. The training data was a subset of 5000 random images from the MNIST dataset, and the test data was a subset of 2000 random images.*
 
-The notebook is avaiable in the [MNIST subfolder](https://github.com/pedrohortencio/machine-learning-gladiator/blob/main/MNIST/MNIST_Gladiator.ipynb) and also on [Google Colab](https://colab.research.google.com/drive/16XOZSnLCSpFp6HzXjo7OBrFLFrfEwHGY?usp=sharing).
+The notebook is avaiable in the [MNIST subfolder](https://github.com/pedrohortencio/machine-learning-gladiator/blob/main/MNIST/MNIST_Gladiator.ipynb) and also on [Google Colab](https://colab.research.google.com/github/pedrohortencio/machine-learning-gladiator/blob/main/Fashion%20MNIST/Fashion_MNIST_Gladiator.ipynb).
 
 ### Fashion MNIST
 
@@ -41,6 +42,7 @@ The models used to predict the class of the Fashion MNIST's clothes are:
 
 #### Fashion MNIST Results
 
+No surprises here. The CNN model did better than the DNN and the Transfer Learning model did (marginally) better than the CNN one.
 ![Comparison Between Models in the Fashion MNIST dataset](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Fashion%20MNIST/accuracy-comparison.png)
 *All models were trained, validated and tested with the same datasets.*
 
