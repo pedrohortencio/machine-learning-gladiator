@@ -11,7 +11,7 @@ it seems some groups of people were more likely to survive than others.
 
 The challenge set by this dataset, as said by Kaggle, is to answer the question:  “what sorts of people were more likely to survive?”. 
 
-With that in mind, my real question is: how good are different ML algorithms? How the accuracy is impacted with the use of normalized and non-normalized data?
+With that in mind, my real question is: how good are different ML algorithms? How the accuracy is impacted with the use of normalized and unnormalized data?
 
 ## The algorithms tested
 
@@ -47,9 +47,9 @@ which causes more harm in neural networks' accuracy than in gradient boosting ma
 
 #### Visualizations
 
-The accuracy scores when training and testing with non-normalized data was the following:
-![Comparison Between the Models using Non-Normalized Data](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Titanic/accuracy-nonnormalized.png)
-*Comparison Between the Models using Non-Normalized Data*
+The accuracy scores when training and testing with nunnormalized data was the following:
+![Comparison Between the Models using Unnormalized Data](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Titanic/accuracy-nonnormalized.png)
+*Comparison Between the Models using Unnormalized Data*
 
 
 The accuracy scores when using normalized data:
@@ -57,7 +57,7 @@ The accuracy scores when using normalized data:
 
 
 A direct comparison, for easier visualization:
-![Comparison Between the Validation Accuracy using Normalized and Non-Normalized Data](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Titanic/comparison-normalized-nonnormalized.png)
-*Comparison Between the Validation Accuracy using Normalized and Non-Normalized Data*
+![Comparison Between the Validation Accuracy using Normalized and Unnormalized Data](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Titanic/comparison-normalized-nonnormalized.png)
+*Comparison Between the Validation Accuracy using Normalized and Unnormalized Data*
 
 The Bernoulli model had a significant drop in performance with normalized data, while the others had less dramatic oscillations.
