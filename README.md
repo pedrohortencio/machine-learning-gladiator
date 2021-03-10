@@ -1,6 +1,17 @@
 # Machine Learning Gladiator - Battle Between Algorithms
 Repository containing comparisons between different out-of-the-box machine learning algorithms in some classic datasets.
 
+# Table of Contents
+
+* [The Concept](https://github.com/pedrohortencio/machine-learning-gladiator#the-concept)
+* [The Data](https://github.com/pedrohortencio/machine-learning-gladiator#the-data)
+  * [MNIST](https://github.com/pedrohortencio/machine-learning-gladiator#mnist)
+  * [Fashion MNIST](https://github.com/pedrohortencio/machine-learning-gladiator#fashion-mnist)
+  * [Titanic](https://github.com/pedrohortencio/machine-learning-gladiator#titanic)
+  * [Wine Quality](https://github.com/pedrohortencio/machine-learning-gladiator#wine-quality)
+* [Roadmap](https://github.com/pedrohortencio/machine-learning-gladiator#roadmap)
+
+
 ## The Concept
 
 The name is a sort of joke for a very established  concept: to try different classic algorithms in a dataset to experiment and see how each one behaves.
@@ -43,6 +54,8 @@ One surprise is how well KNN model did in comparison with other more robust meth
 
 The notebook is avaiable in the [MNIST subfolder](https://github.com/pedrohortencio/machine-learning-gladiator/blob/main/MNIST/MNIST_Gladiator.ipynb) and also on [Google Colab](https://colab.research.google.com/github/pedrohortencio/machine-learning-gladiator/blob/main/Fashion%20MNIST/Fashion_MNIST_Gladiator.ipynb).
 
+------------
+
 ### Fashion MNIST
 
 The models used to predict the class of the Fashion MNIST's clothes are:
@@ -58,6 +71,8 @@ No surprises here. The CNN model did better than the DNN and the Transfer Learni
 *All models were trained, validated and tested with the same datasets.*
 
 The notebook is avaiable in the [Fashion MNIST subfolder](https://github.com/pedrohortencio/machine-learning-gladiator/tree/main/Fashion%20MNIST) and also on [Google Colab](https://colab.research.google.com/github/pedrohortencio/machine-learning-gladiator/blob/main/Fashion%20MNIST/Fashion_MNIST_Gladiator.ipynb).
+
+------------
 
 ### Titanic
 For this classic dataset, the models created were:
@@ -80,6 +95,8 @@ Here is the final plot, a comparison of the validation accuracy score both with 
 
 ![Comparison Between the Validation Accuracy using Normalized and Unnormalized Data](https://raw.githubusercontent.com/pedrohortencio/machine-learning-gladiator/main/Titanic/comparison-normalized-nonnormalized.png)
 *Comparison Between the Validation Accuracy using Normalized and Unnormalized Data*
+
+------------
 
 ### Wine Quality
 The Wine Quality Dataset is related to red and white variants of the Portuguese "Vinho Verde" wine. The data can be found in [Kaggle (only the Red Wine variant)](https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009) and the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/wine+quality).
