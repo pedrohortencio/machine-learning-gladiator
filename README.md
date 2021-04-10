@@ -116,3 +116,8 @@ This is a good examples of a scenario where the use of Machine Learning may not 
 ## Roadmap
 
 I plan to do similar analysis with House Prices and TMDB Box Office datasets.
+
+## About
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
